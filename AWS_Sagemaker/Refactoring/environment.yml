@@ -1,0 +1,13 @@
+name: diversity
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - sagemaker
+    - opencv-python-headless
+    - tensorflow 
+    - tensorflow_hub
+    - tensorflow-object-detection-api
+  - conda
+  - conda:
+    - ipykernel 
